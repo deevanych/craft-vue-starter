@@ -1,0 +1,129 @@
+dateModified: 1741394745
+email:
+  fromEmail: cashalotkzn@gmail.com
+  fromName: eventtracker
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    9a23db43-7b53-4ff6-a498-d1bbaca5c53a: eventtracker # eventtracker
+    da9d2cd1-b343-4c3c-bd56-ebde8ef0851f: eventtracker # eventtracker
+plugins:
+  blitz:
+    edition: standard
+    enabled: true
+    licenseKey: PFUBAULSE9B8D69NG7KS61BP
+    schemaVersion: 5.9.0
+    settings:
+      apiKey: ''
+      cacheControlHeader: 'public, s-maxage=31536000, max-age=0'
+      cacheControlHeaderExpired: 'public, s-maxage=5, max-age=0'
+      cacheDuration: null
+      cacheGeneratorSettings:
+        __assoc__:
+          -
+            - concurrency
+            - '1'
+      cacheGeneratorType: putyourlightson\blitz\drivers\generators\HttpGenerator
+      cacheNonHtmlResponses: false
+      cachePurgerType: putyourlightson\blitz\drivers\purgers\DummyPurger
+      cacheStorageSettings:
+        __assoc__:
+          -
+            - folderPath
+            - '@webroot/cache/blitz'
+          -
+            - compressCachedValues
+            - ''
+      cacheStorageType: putyourlightson\blitz\drivers\storage\FileStorage
+      cachingEnabled: false
+      debug: false
+      defaultCacheControlHeader: no-store
+      deployerType: putyourlightson\blitz\drivers\deployers\DummyDeployer
+      detectSsiEnabled: true
+      driverJobBatchSize: 100
+      driverJobPriority: 100
+      esiEnabled: false
+      excludedQueryStringParams:
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - queryStringParam
+              - gclid
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - queryStringParam
+              - fbclid
+      generatePagesWithQueryStringParams: true
+      hintsEnabled: true
+      includedQueryStringParams:
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - queryStringParam
+              - '.*'
+      includedUriPatterns:
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - uriPattern
+              - '.*'
+      injectScriptEvent: DOMContentLoaded
+      injectScriptPosition: 3
+      integrations:
+        - putyourlightson\blitz\drivers\integrations\CommerceIntegration
+        - putyourlightson\blitz\drivers\integrations\SeomaticIntegration
+      maxRetryAttempts: 10
+      maxUriLength: 255
+      mutexTimeout: 1
+      onlyCacheLowercaseUris: false
+      outputComments: true
+      purgeAssetImagesWhenChanged: true
+      queryStringCaching: 1
+      queueJobTtr: 300
+      refreshCacheAutomaticallyForGlobals: true
+      refreshCacheEnabled: true
+      refreshCacheJobPriority: 10
+      refreshCacheWhenElementMovedInStructure: true
+      refreshCacheWhenElementSavedNotLive: false
+      refreshCacheWhenElementSavedUnchanged: false
+      refreshMode: 1
+      sendPoweredByHeader: true
+      ssiEnabled: false
+      ssiTagFormat: '<!--#include virtual="{uri}" -->'
+      trackElementQueries: true
+      trackElements: true
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: D1O0RZS91JF8NWYFL7RSKHU6
+    schemaVersion: 3.0.12
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: eventtracker
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
