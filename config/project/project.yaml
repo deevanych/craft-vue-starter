@@ -1,4 +1,4 @@
-dateModified: 1741394745
+dateModified: 1741503390
 email:
   fromEmail: cashalotkzn@gmail.com
   fromName: eventtracker
@@ -105,6 +105,11 @@ plugins:
       ssiTagFormat: '<!--#include virtual="{uri}" -->'
       trackElementQueries: true
       trackElements: true
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: UAJBLAW4458C3C8DY62CEDG2
+    schemaVersion: 2.1.0
   seomatic:
     edition: standard
     enabled: true
@@ -115,7 +120,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: eventtracker
   schemaVersion: 5.6.0.2
