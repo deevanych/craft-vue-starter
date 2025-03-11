@@ -1,4 +1,4 @@
-dateModified: 1741503390
+dateModified: 1741708227
 email:
   fromEmail: cashalotkzn@gmail.com
   fromName: eventtracker
@@ -6,7 +6,8 @@ email:
 meta:
   __names__:
     9a23db43-7b53-4ff6-a498-d1bbaca5c53a: eventtracker # eventtracker
-    da9d2cd1-b343-4c3c-bd56-ebde8ef0851f: eventtracker # eventtracker
+    32b0ffef-a2b1-4a97-9fb9-3389422a8938: Simple # Simple
+    da9d2cd1-b343-4c3c-bd56-ebde8ef0851f: 'craft vue starter' # craft vue starter
 plugins:
   blitz:
     edition: standard
@@ -105,6 +106,14 @@ plugins:
       ssiTagFormat: '<!--#include virtual="{uri}" -->'
       trackElementQueries: true
       trackElements: true
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   navigation:
     edition: standard
     enabled: true

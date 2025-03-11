@@ -3,7 +3,7 @@ enabled: true
 handle: default
 hasUrls: true
 language: ru-RU
-name: eventtracker
+name: 'craft vue starter'
 primary: true
 siteGroup: 9a23db43-7b53-4ff6-a498-d1bbaca5c53a # eventtracker
 sortOrder: 1
