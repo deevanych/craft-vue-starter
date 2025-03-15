@@ -2,4 +2,6 @@
 /.idea
 /vendor
 .DS_Store
-/.ddev
+
+/web/dist
+/web/cache
