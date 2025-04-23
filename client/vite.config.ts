@@ -23,7 +23,8 @@ export default defineConfig(({command, mode}) => {
             emptyOutDir: true,
             rollupOptions: {
                 input: {
-                    app: './src/main.ts'
+                    app: './src/main.ts',
+                    css: './src/scss/index.scss'
                 }
             },
         },

@@ -4,5 +4,11 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
     <meta name="referrer" content="origin-when-cross-origin"/>
+
+    {% if not craft.vite.devServerRunning() %}
+        <link rel="preload" href="{{ craft.vite.entry("src/scss/index.scss") }}" as="style"/>
+        <link href="{{ craft.vite.asset("src/scss/index.scss") }}" rel="stylesheet"/>
+    {% endif %}
+
     {{ craft.vite.script("src/main.ts") }}
 </head>
