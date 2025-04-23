@@ -1,7 +1,11 @@
-dateModified: 1745423214
+dateModified: 1745423429
 email:
-  fromEmail: cashalotkzn@gmail.com
-  fromName: eventtracker
+  fromEmail: demo@gmail.com
+  fromName: 'craft demo site'
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
