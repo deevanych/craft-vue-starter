@@ -1,4 +1,4 @@
-dateModified: 1741708227
+dateModified: 1745422659
 email:
   fromEmail: cashalotkzn@gmail.com
   fromName: eventtracker
@@ -13,7 +13,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: PFUBAULSE9B8D69NG7KS61BP
-    schemaVersion: 5.9.0
+    schemaVersion: 5.10.0
     settings:
       apiKey: ''
       cacheControlHeader: 'public, s-maxage=31536000, max-age=0'
@@ -132,7 +132,7 @@ system:
   edition: pro
   live: true
   name: eventtracker
-  schemaVersion: 5.6.0.2
+  schemaVersion: 5.7.0.3
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

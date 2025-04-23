@@ -2,12 +2,12 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/ckeditor": "4.6.0",
-    "craftcms/cms": "^5.0.0",
+    "craftcms/ckeditor": "4.7.0",
+    "craftcms/cms": "5.7.2",
     "mmikkel/cp-field-inspect": "2.0.4",
-    "nystudio107/craft-seomatic": "5.1.11",
+    "nystudio107/craft-seomatic": "5.1.12",
     "nystudio107/craft-vite": "5.0.1",
-    "putyourlightson/craft-blitz": "5.9.11",
+    "putyourlightson/craft-blitz": "5.10.4",
     "verbb/navigation": "3.0.6",
     "vlucas/phpdotenv": "^5.4.0"
   },
