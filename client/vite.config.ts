@@ -3,6 +3,7 @@ import {fileURLToPath, URL} from 'node:url'
 import {defineConfig, loadEnv} from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
+import copy from 'rollup-plugin-copy'
 
 // https://vite.dev/config/
 import ViteRestart from 'vite-plugin-restart';
@@ -22,7 +23,7 @@ export default defineConfig(({command, mode}) => {
             emptyOutDir: true,
             rollupOptions: {
                 input: {
-                    app: './src/main.ts',
+                    app: './src/main.ts'
                 }
             },
         },
@@ -33,7 +34,18 @@ export default defineConfig(({command, mode}) => {
                 reload: [
                     '../templates/**/*',
                 ],
-            })
+            }),
+            copy({
+                targets: [
+                    {
+                        src: 'src/fonts/**/*',
+                        dest: '../web/dist/fonts'
+                    }, {
+                        src: 'public/**/*',
+                        dest: '../web/dist'
+                    }],
+                hook: 'writeBundle'
+            }),
         ],
         resolve: {
             alias: {
