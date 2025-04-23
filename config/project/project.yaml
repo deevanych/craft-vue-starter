@@ -1,11 +1,11 @@
-dateModified: 1745422659
+dateModified: 1745423214
 email:
   fromEmail: cashalotkzn@gmail.com
   fromName: eventtracker
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    9a23db43-7b53-4ff6-a498-d1bbaca5c53a: eventtracker # eventtracker
+    9a23db43-7b53-4ff6-a498-d1bbaca5c53a: Default # Default
     32b0ffef-a2b1-4a97-9fb9-3389422a8938: Simple # Simple
     da9d2cd1-b343-4c3c-bd56-ebde8ef0851f: 'craft vue starter' # craft vue starter
 plugins:
@@ -131,7 +131,8 @@ plugins:
 system:
   edition: pro
   live: true
-  name: eventtracker
+  name: 'craft site'
+  retryDuration: null
   schemaVersion: 5.7.0.3
   timeZone: America/Los_Angeles
 users:

@@ -5,5 +5,5 @@ hasUrls: true
 language: ru-RU
 name: 'craft vue starter'
 primary: true
-siteGroup: 9a23db43-7b53-4ff6-a498-d1bbaca5c53a # eventtracker
+siteGroup: 9a23db43-7b53-4ff6-a498-d1bbaca5c53a # Default
 sortOrder: 1
